@@ -1,0 +1,149 @@
+:root {
+  --black: #272a31;
+  --orange: #ec5242;
+  --gray: #d3d3d3;
+  --dark-gray: rgb(53, 49, 49);
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-background {
+  background-image: url('./img/header-background2.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.header__h1, 
+.header__h3 {
+  color: var(--orange);
+}
+
+.header__h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  max-width: 90%;
+}
+
+.header__h3 {
+  font-weight: 100;
+  margin: 0;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.header__text-box {
+  background-color: var(--gray);
+  max-width: 90%;
+  padding: 2rem;
+  border: 2px solid #fff;
+  font-size: 1.6rem;
+  color: rgb(53, 49, 49);
+}
+
+.header__text-box p {
+  margin: 0;
+}
+
+.header__date {
+  color: var(--dark-gray);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.header__place {
+  color: var(--dark-gray);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.program { 
+  background-image: url('./img/black-texture.png');
+  width: 100%;
+  padding: 3rem 2rem;
+}
+
+.subtitle__h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.subtitle__line {
+  border: 1px solid var(--orange);
+  margin: 0 auto;
+  width: 5rem;
+}
+
+.program__card {
+  background-color: rgba(256,256,256, 0.3);
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.program__card__title {
+  color: var(--orange);
+  font-size: 2.5rem;
+}
+
+.program__card__description {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.program__card__icon {
+  color: #fff;
+}
+
+.program__join-button {
+  background-color: var(--orange);
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--black);
+}
+

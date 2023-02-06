@@ -169,7 +169,8 @@ If you like this project please star this repo.
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank microverse inc. for helping me in my professional carreer. 
+This web page has been created using a Cindy Shin design. Thanks to zetafonts 
+for proving Cocogoose font-family
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
