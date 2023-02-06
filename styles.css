@@ -212,14 +212,13 @@ html {
 }
 
 .speakers__card {
-  /* display: flex;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1rem;
   margin: 0 auto;
   width: 48rem;
   max-width: 100%;
+  height: 17rem;
 }
 
 .speakers__card__images {
@@ -264,4 +263,22 @@ html {
 .speakers__card__description {
   font-size: 1.5rem;
   color: var(--black);
+}
+
+.speakers__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--gray);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.speakers__more p{
+  font-size: 1.5rem;
+}
+
+.speakers__more span{
+  color: var(--orange);
 }
