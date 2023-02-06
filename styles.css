@@ -94,7 +94,7 @@ html {
   padding: 3rem 2rem;
 }
 
-.subtitle__h2 {
+.subtitle {
   color: #fff;
   font-size: 2rem;
   margin-top: 0;
@@ -145,5 +145,24 @@ html {
 
 .footer {
   background-color: var(--black);
+  padding: 2rem ;
 }
 
+.footer__logo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.footer__logo {
+  width: 10rem;
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+.mozilla {
+  flex-basis: 200px;
+}
