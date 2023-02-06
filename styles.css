@@ -101,6 +101,13 @@ html {
   text-align: center;
 }
 
+.subtitle-black {
+  color: black;
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
 .subtitle__line {
   border: 1px solid var(--orange);
   margin: 0 auto;
@@ -155,6 +162,7 @@ html {
   gap: 1rem;
   max-width: 90%;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .footer__logo {
@@ -164,5 +172,95 @@ html {
 }
 
 .mozilla {
-  flex-basis: 200px;
+  flex-basis: 160px;
+}
+
+.license {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.license__logo {
+  width: 18rem;
+}
+
+.license__text {
+  font-size: 1.5rem;
+}
+
+.speakers {
+  padding: 2rem 0;
+}
+
+.black-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 70%;
+  height: 70%;
+  z-index: 1;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.speakers__card {
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 48rem;
+  max-width: 100%;
+}
+
+.speakers__card__images {
+  position: relative;
+}
+
+.speakers__card__img {
+  position: relative;
+  bottom: 90px;
+  left: 13px;
+  z-index: 2;
+  margin-right: 20px;
+  width: 90%;
+} 
+
+.speakers__cards-container {
+  padding: 1rem 2rem;
+}
+
+.speakers__card__name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.speakers__card__studies {
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 2px;
+  
+}
+
+.speakers__card__line {
+  border: 1px solid var(--gray);
+  width: 20px;
+  margin-left: 0;
+}
+
+.speakers__card__description {
+  font-size: 1.5rem;
+  color: var(--black);
 }
