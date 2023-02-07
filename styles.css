@@ -5,6 +5,10 @@
   --dark-gray: rgb(53, 49, 49);
 }
 
+.display-none {
+  display: none;
+}
+
 .container {
   margin: 0 auto;
   width: 90%;
@@ -78,6 +82,7 @@ html {
   border: 2px solid #fff;
   font-size: 1.6rem;
   color: rgb(53, 49, 49);
+  max-width: 75rem;
 }
 
 .about-header__text-box {
@@ -129,6 +134,8 @@ html {
 
 .program {
   background-image: url('./img/black-texture.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   padding: 3rem 2rem;
 }
@@ -391,4 +398,138 @@ html {
 .past-editions__description {
   font-size: 1.8rem;
   margin: 0;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  ul,
+  li,
+  a:hover {
+    color: var(--orange);
+  }
+
+  .main-nav ul,
+  li,
+  .main-nav__a {
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-size: 1.7rem;
+    padding: 10px;
+  }
+
+  .main-nav ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo-link {
+    padding: 0;
+  }
+
+  .main-nav ul li:last-child {
+    border: 3px solid var(--orange);
+    padding: 10px;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+  }
+
+  .nav-bar img {
+    width: 8rem;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  .profile-menu {
+    background-color: var(--black);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 2.5rem;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .header-background {
+    padding: 12rem;
+  }
+
+  .header__h3 {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  .header__h1 {
+    font-size: 5.5rem;
+  }
+
+  .card-container {
+    flex-direction: row;
+    gap: 1rem;
+    width: 95%;
+    max-width: 120rem;
+    margin: 2rem auto;
+  }
+
+  .program__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+  }
+
+  .program__card__title,
+  .program__card__description {
+    margin: 0;
+    text-align: center;
+  }
+
+  .program__join-button {
+    display: none;
+  }
+
+  .program__desktop-link {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .program__join-button:hover {
+    cursor: pointer;
+  }
+
+  .speakers__cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  .speakers__card {
+    margin: 0;
+  }
+
+  .footer__logo-container {
+    justify-content: space-evenly;
+  }
+
+  .license {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
 }
