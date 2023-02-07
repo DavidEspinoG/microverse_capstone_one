@@ -25,18 +25,18 @@
 
 # 📖 Portfolio <a id="about-project"></a>
 
-> Project created for showing my expirience as a software developer
+> Project created as part of my portfolio during the Microverse Program
 
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
 
-> HTML & CSS
+> HTML, CSS & JS 
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML & CSS</a></li>
+    <li><a href="#">HTML, CSS & JS</a></li>
   </ul>
 </details>
 
@@ -58,7 +58,7 @@
 
 ### Key Features <a id="key-features"></a>
 
-- Show's the best of my work as a software developer
+- The content of "Main speakers section" is dinamically created using JS
 - Responsive web
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,7 +70,7 @@
 > Add a link to your deployed project.
 
 
-- [Live Demo Link](https://davidespinog.github.io/portfolio/)
+- [Live Demo Link(deploy pending)](https://davidespinog.github.io/portfolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +86,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-> git clone https://github.com/DavidEspinoG/portfolio.git
+> git clone https://github.com/DavidEspinoG/microverse_capstone_one.git
 > (you can open it via live server in VS)
 
 ### Setup
@@ -110,7 +110,8 @@ To run the project just open it in VS and run liveServer
 
 To run tests, run the following command:
 
-N/A
+After running npm i command the command npm run test is available for testing
+if you want some quick fix you can also run npm run fix
 ### Deployment
 
 You can deploy this project using:
@@ -138,8 +139,7 @@ N/A
 ## 🔭 Future Features <a id="future-features"></a>
 
 
-- More projects are going to be added **[new_feature_1]**
-- A contact form
+- More responsiveness is going to be added considering very small devices
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +149,7 @@ N/A
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/DavidEspinoG/microverse_capstone_one/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
