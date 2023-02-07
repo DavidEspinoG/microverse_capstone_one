@@ -533,8 +533,53 @@ html {
     justify-content: space-evenly;
   }
 
-  .license {
-    max-width: 120rem;
+  .about-header__h3 {
+    display: none;
+  }
+
+  .about-header__h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  }
+
+  .header__title-container {
+    max-width: 60rem;
     margin: 0 auto;
+  }
+
+  .about__header-line {
+    border: 1px solid var(--orange);
+    display: block;
+    width: 4rem;
+    margin: 2rem auto;
+  }
+
+  .about__logo-container {
+    width: 90%;
+    max-width: 40rem;
+  }
+
+  .past-editions__card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .past-editions__card1,
+  .past-editions__card2 {
+    width: 50rem;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .license {
+    background-color: var(--dark-gray);
+    color: #fff;
+  }
+
+  .license__logo {
+    filter: invert(100%);
   }
 }
