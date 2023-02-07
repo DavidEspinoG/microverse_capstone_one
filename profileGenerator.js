@@ -11,7 +11,7 @@ const profileGenerator = (object) => {
   const img = document.createElement('img');
   img.classList.add('speakers__card__img');
   img.src = object.image;
-  img.alt = object.name + ' profile picture';
+  img.alt = `${object.name} profile picture`;
   const name = document.createElement('p');
   name.innerText = object.name;
   name.classList.add('speakers__card__name');

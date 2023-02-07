@@ -323,10 +323,9 @@ html {
   gap: 4rem;
 }
 
-.speakers__cards-container > div:last-child{
+.speakers__cards-container > div:last-child {
   margin-bottom: 3rem;
 }
-
 
 .speakers__card__name {
   font-size: 1.9rem;
@@ -613,7 +612,6 @@ html {
   .past-editions__card2 {
     width: 50rem;
   }
-
 }
 
 .change-colors {
