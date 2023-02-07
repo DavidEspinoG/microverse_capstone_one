@@ -14,13 +14,16 @@ const blackAndWhiteAlternator = (size) => {
   return result;
 };
 
-const gridGenerator = (size, htmlElement) => {
-  const colors = blackAndWhiteAlternator(size ** 2);
+const gridGenerator = () => {
+  const container = document.createElement('div');
+  container.classList.add('black-grid');
+  const colors = blackAndWhiteAlternator(12 ** 2);
   colors.forEach((color) => {
     const div = document.createElement('div');
     div.classList.add(color);
-    htmlElement.appendChild(div);
+    container.appendChild(div);
   });
+  return container;
 };
 
 export default gridGenerator;

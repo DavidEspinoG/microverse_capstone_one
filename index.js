@@ -1,4 +1,6 @@
-import gridGenerator from './gridGenerator.js';
+import data from './data.js';
+import profileGenerator from './profileGenerator.js';
+
 // Burger menu
 const button = document.getElementById('burger-button');
 const mobileMenu = document.getElementById('mobile-menu');
@@ -16,10 +18,9 @@ for (let i = 0; i < body.children.length; i += 1) {
   });
 }
 
-// Speakers black and white grid
+// Profile generator
+const speakersContainer = document.getElementById('speakers-container');
 
-const grids = document.querySelectorAll('.black-grid');
-
-for (let i = 0; i < grids.length; i += 1) {
-  gridGenerator(12, grids[i]);
-}
+data.forEach((element) => {
+  speakersContainer.appendChild(profileGenerator(element));
+});
