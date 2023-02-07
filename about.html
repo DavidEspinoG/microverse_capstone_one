@@ -33,8 +33,21 @@
         </nav>
     </div>
     <header class="header-background">
+        <div id="mobile-menu" class="display-none">
+            <nav class="mobile__nav">
+                <ul class="mobile__nav__ul">
+                    <li><a class="mobile__nav__a" href="./index.html">Home</a></li>
+                    <li><a class="mobile__nav__a" href="#">Program</a></li>
+                    <li><a class="mobile__nav__a" href="#">Join</a></li>
+                    <li><a class="mobile__nav__a" href="#">Sponsor</a></li>
+                    <li><a class="mobile__nav__a" href="#">News</a></li>
+                    <li><a class="mobile__nav__a" href="#">CC Campaign</a></li>
+                    <li class="close-icon"><i class="fa-solid fa-xmark fa-3x"></i></li>
+                </ul>
+            </nav>
+        </div>
         <div class="header-content container">
-            <i class="fa-solid fa-bars fa-3x burger-menu"></i>
+            <i class="fa-solid fa-bars fa-3x burger-menu" id="burger-button"></i>
             <h3 class="about-header__h3">Let's Code the World!</h3>
             <div class="header__title-container">
                 <h1 class="about-header__h1">Web Development Global Conference 2023</h1>
@@ -88,5 +101,6 @@
             <p class="license__text">Some Rights Reserved</p>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

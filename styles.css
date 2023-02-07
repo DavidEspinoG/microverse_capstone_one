@@ -37,6 +37,41 @@ html {
   background-position: center;
   background-size: cover;
   padding: 2rem;
+  position: relative;
+}
+
+#mobile-menu {
+  position: absolute;
+  background-color: #fff;
+  top: 10%;
+  left: 10%;
+  padding: 1rem;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+}
+
+.mobile__nav__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile__nav__a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.mobile__nav__a:hover {
+  color: var(--orange);
+}
+
+.close-icon {
+  text-align: center;
+}
+
+.close-icon:hover {
+  color: var(--orange);
 }
 
 .header__h1,
