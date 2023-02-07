@@ -70,7 +70,7 @@
 > Add a link to your deployed project.
 
 
-- [Live Demo Link(deploy pending)](https://davidespinog.github.io/portfolio/)
+- [Live Demo Link](https://davidespinog.github.io/microverse_capstone_one/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -169,8 +169,7 @@ If you like this project please star this repo.
 
 > Give credit to everyone who inspired your codebase.
 
-This web page has been created using a Cindy Shin design. Thanks to zetafonts 
-for proving Cocogoose font-family
+This web page has been created using a Cindy Shin design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

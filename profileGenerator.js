@@ -2,7 +2,7 @@ import gridGenerator from './gridGenerator.js';
 
 const profileGenerator = (object) => {
   // Element creation
-  const card = document.createElement('div');
+  const card = document.createElement('article');
   card.classList.add('speakers__card');
   const imagesDiv = document.createElement('div');
   imagesDiv.classList.add('speakers__card__images');
@@ -11,6 +11,7 @@ const profileGenerator = (object) => {
   const img = document.createElement('img');
   img.classList.add('speakers__card__img');
   img.src = object.image;
+  img.alt = object.name + ' profile picture';
   const name = document.createElement('p');
   name.innerText = object.name;
   name.classList.add('speakers__card__name');
