@@ -462,6 +462,11 @@ html {
     font-weight: 300;
   }
 
+  .profile-menu:hover p:hover,
+  .profile-menu:hover i:hover {
+    color: var(--orange);
+  }
+
   .header-background {
     padding: 12rem;
   }
