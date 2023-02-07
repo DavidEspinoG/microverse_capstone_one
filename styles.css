@@ -37,7 +37,9 @@ html {
 }
 
 .header__h1, 
-.header__h3 {
+.header__h3,
+.about-header__h1,
+.about-header__h3{
   color: var(--orange);
 }
 
@@ -46,7 +48,14 @@ html {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  max-width: 90%;
+}
+
+.about-header__h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
 }
 
 .header__h3 {
@@ -56,13 +65,43 @@ html {
   margin-top: 2rem;
 }
 
+.about-header__h3 {
+  font-weight: 100;
+  margin: 0;
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
 .header__text-box {
   background-color: var(--gray);
-  max-width: 90%;
   padding: 2rem;
   border: 2px solid #fff;
   font-size: 1.6rem;
   color: rgb(53, 49, 49);
+}
+
+.about-header__text-box {
+  background-color: #fff;
+  padding: 2rem;
+  border: 2px solid var(--gray);
+  font-size: 1.6rem;
+  color: var(--dark-gray);
+}
+
+.header__contact-us {
+  text-align: center;
+  color: var(--dark-gray);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.header__mail{
+  color: var(--dark-gray);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .header__text-box p {
@@ -102,7 +141,7 @@ html {
 }
 
 .subtitle-black {
-  color: black;
+  color: var(--black);
   font-size: 2rem;
   margin-top: 0;
   text-align: center;
@@ -166,7 +205,7 @@ html {
 }
 
 .footer__logo {
-  width: 10rem;
+  width: 7rem;
   max-width: 100%;
   filter: grayscale(100%);
 }
@@ -281,4 +320,77 @@ html {
 
 .speakers__more span{
   color: var(--orange);
+}
+
+/* About */
+
+.about {
+  padding: 2rem 0;
+}
+
+.about__logo-description {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.about__logo-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--gray);
+}
+
+.about__logo-container img {
+  width: 30rem;
+}
+
+.past-editions {
+  border-top: 1px solid var(--gray);
+  padding: 2rem 0;
+  position: relative;
+}
+
+.past-editions__card__img {
+  width: 100%;
+  z-index: 1;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.past-editions__card1 {
+  background-image: url('./img/conference1.png');
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.past-editions__card2 {
+  background-image: url('./img/conference2.png');
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-editions__year {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.past-editions__description {
+  font-size: 1.8rem;
+  margin: 0;
 }
