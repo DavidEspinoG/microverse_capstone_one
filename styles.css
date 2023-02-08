@@ -612,13 +612,17 @@ html {
   .past-editions__card2 {
     width: 50rem;
   }
-}
 
-.change-colors {
-  background-color: var(--dark-gray);
-  color: #fff;
-}
+  .change-colors {
+    background-color: var(--dark-gray);
+    color: #fff;
+  }
+  
+  .change-colors__logo {
+    filter: invert(100%);
+  }
 
-.change-colors__logo {
-  filter: invert(100%);
+  .disapear {
+    display: none;
+  }
 }
