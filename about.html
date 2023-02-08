@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/e52d74ec85.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Web Development Conference</title>
+</head>
+<body>
+    <div class="profile-menu display-none">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <p>English</p>
+        <p>My Page</p>
+        <p>Logout</p>
+    </div>
+    <div class="nav-bar display-none">
+        <a href="./index.html" class="logo-link"><img src="./img/logo.png" alt="Web Development Logo"></a>
+        <nav class="main-nav">
+            <ul>
+                <li><a class="main-nav__a" href="./about.html">About</a></li>
+                <li><a class="main-nav__a" href="#">Program</a></li>
+                <li><a class="main-nav__a" href="#">Join</a></li>
+                <li><a class="main-nav__a" href="#">Sponsor</a></li>
+                <li><a class="main-nav__a" href="#">News</a></li>
+                <li><a class="main-nav__a" href="#">CC Campaign</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header-background">
+        <div id="mobile-menu" class="display-none">
+            <nav class="mobile__nav">
+                <ul class="mobile__nav__ul">
+                    <li><a class="mobile__nav__a" href="./index.html">Home</a></li>
+                    <li><a class="mobile__nav__a" href="#">Program</a></li>
+                    <li><a class="mobile__nav__a" href="#">Join</a></li>
+                    <li><a class="mobile__nav__a" href="#">Sponsor</a></li>
+                    <li><a class="mobile__nav__a" href="#">News</a></li>
+                    <li><a class="mobile__nav__a" href="#">CC Campaign</a></li>
+                    <li class="close-icon"><i class="fa-solid fa-xmark fa-3x"></i></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <i class="fa-solid fa-bars fa-3x burger-menu" id="burger-button"></i>
+            <h3 class="about-header__h3">Let's Code the World!</h3>
+            <div class="header__title-container">
+                <h1 class="about-header__h1">Web Development Global Conference 2023</h1>
+            </div>
+            <hr class="about__header-line display-none">
+            <div class="about-header__text-box">
+                <p>Developers of the world, let get together! A space for sharing the joy of coding with peolple from over seventy different countries. Join us on September 12th, 2023 in Mexico City</p>
+            </div>
+            <p class="header__contact-us">Please contact us per Email for any further questions about Web Development Global Conference 2023</p>
+            <p class="header__mail">contact@thebestweb.com</p>
+        </div>
+    </header>
+    <main class="about">
+        <h2 class="subtitle-black">Web Development Conference Logo</h2>
+        <hr class="subtitle__line">
+        <p class="header__contact-us about__logo-description">The logo of the Web Development Conference was decided through the logo competition on September 8th 2015</p>
+        <div class="about__logo-container container">
+            <img src="./img/logo.png" alt="">
+        </div>
+    </main>
+    <section class="past-editions">
+        <h2 class="subtitle-black">See the past Web Conferences</h2>
+        <hr class="subtitle__line">
+        <p class="header__contact-us about__logo-description">Take a look to the last two Web Development Conferences wich took place in Bogotá and Madrid</p>
+        <div class="past-editions__card-container container">
+            <div class="past-editions__card1">
+                <p class="past-editions__year">2018</p>
+                <p class="past-editions__description">Web Development Conference in Bogotá</p>
+            </div>
+            <div class="past-editions__card2">
+                <p class="past-editions__year">2022</p>
+                <p class="past-editions__description">Web Development Conference in Madrid</p>
+            </div>
+        </div>
+    </section>
+    <section class="partners disapear">
+        <h2 class="subtitle">Partner</h2>
+        <hr class="subtitle__line">
+        <div class="partners__logo-container">
+            <img class="footer__logo mozilla" src="./img/mozilla.png" alt="Google logo">
+            <img class="footer__logo"  src="./img/airbnb.png" alt="Airbnb logo">
+            <img class="footer__logo"  src="./img/google-logo.svg" alt="">
+            <img class="footer__logo"  src="./img/microsoft-logo.svg" alt="">
+            <img class="footer__logo"  src="./img/apple.png" alt="">
+        </div>
+    </section>
+    <footer class="license change-colors">
+        <img class="license__logo change-colors__logo" src="./img/cc-logo.svg" alt="creative commons logo">
+        <div>
+            <p class="license__text">2023 Creative Commons Mexico</p>
+            <p class="license__text">Some Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="./profileGenerator.js" type="module"></script>
+    <script src="./gridGenerator.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

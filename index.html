@@ -12,9 +12,42 @@
     <title>Web Development Conference</title>
 </head>
 <body>
+    <div class="profile-menu display-none">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <p>English</p>
+        <p>My Page</p>
+        <p>Logout</p>
+    </div>
+    <div class="nav-bar display-none">
+        <a href="./index.html" class="logo-link"><img src="./img/logo.png" alt="Web Development Logo"></a>
+        <nav class="main-nav">
+            <ul>
+                <li><a class="main-nav__a" href="./about.html">About</a></li>
+                <li><a class="main-nav__a" href="#">Program</a></li>
+                <li><a class="main-nav__a" href="#">Join</a></li>
+                <li><a class="main-nav__a" href="#">Sponsor</a></li>
+                <li><a class="main-nav__a" href="#">News</a></li>
+                <li><a class="main-nav__a" href="#">CC Campaign</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header-background">
+        <div id="mobile-menu" class="display-none">
+            <nav class="mobile__nav">
+                <ul class="mobile__nav__ul">
+                    <li><a class="mobile__nav__a" href="./about.html">About</a></li>
+                    <li><a class="mobile__nav__a" href="#">Program</a></li>
+                    <li><a class="mobile__nav__a" href="#">Join</a></li>
+                    <li><a class="mobile__nav__a" href="#">Sponsor</a></li>
+                    <li><a class="mobile__nav__a" href="#">News</a></li>
+                    <li><a class="mobile__nav__a" href="#">CC Campaign</a></li>
+                    <li class="close-icon"><i class="fa-solid fa-xmark fa-3x"></i></li>
+                </ul>
+            </nav>
+        </div>
         <div class="header-content container">
-            <i class="fa-solid fa-bars fa-3x"></i>
+            <i class="fa-solid fa-bars fa-3x burger-menu" id="burger-button"></i>
             <h3 class="header__h3">Let's Code the World!</h3>
             <h1 class="header__h1">Web Development Global Conference 2023</h1>
             <div class="header__text-box">
@@ -25,51 +58,80 @@
         </div>
     </header>
     <main class="program">
-        <h2 class="subtitle__h2">Main Program</h2>
+        <h2 class="subtitle">Main Program</h2>
         <hr class="subtitle__line">
         <div class="card-container">
-            <div class="program__card">
+            <article class="program__card">
                 <div class="program__card__icon">
                     <i class="fa-solid fa-chalkboard-user fa-5x"></i>
                 </div>
                 <h3 class="program__card__title">Lecture</h3>
                 <p class="program__card__description">The ponent it's going to talk about industry top level topic.</p>
-            </div>
-            <div class="program__card">
+            </article>
+            <article class="program__card">
                 <div class="program__card__icon">
                     <i class="fa-solid fa-code fa-5x"></i>
                 </div>
                 <h3 class="program__card__title">Coding</h3>
                 <p class="program__card__description">The ponent it's going to talk about industry top level topic.</p>
-            </div>
-            <div class="program__card">
+            </article>
+            <article class="program__card">
                 <div class="program__card__icon">
                     <i class="fa-solid fa-mug-hot fa-5x"></i>
                 </div>
                 <h3 class="program__card__title">Break</h3>
                 <p class="program__card__description">The ponent it's going to talk about industry top level topic.</p>
-            </div>
-            <div class="program__card">
+            </article>
+            <article class="program__card">
                 <div class="program__card__icon">
                     <i class="fa-solid fa-comments fa-5x"></i>
                 </div>
                 <h3 class="program__card__title">Colab Session</h3>
                 <p class="program__card__description">The ponent it's going to talk about industry top level topic.</p>
-            </div>
-            <div class="program__card">
+            </article>
+            <article class="program__card">
                 <div class="program__card__icon">
                     <i class="fa-solid fa-chalkboard-user fa-6x"></i>
                 </div>
                 <h3 class="program__card__title">Lecture</h3>
                 <p class="program__card__description">The ponent it's going to talk about industry top level topic.</p>
-            </div>
+            </article>
         </div>
+        <a class="program__desktop-link display-none" href="#">SEE THE WHOLE PROGRAM</a>
        <div class="program__join-button">
             <p>Join Web Development Conference</p>
        </div>
     </main>
-    <footer class="footer">
-
+    <section class="speakers">
+        <h2 class="subtitle-black">Featured Speakers</h2>
+        <hr class="subtitle__line">
+        <div class="speakers__cards-container" id="speakers-container">
+        </div>
+        <div class="speakers__more">
+            <p>MORE</p>
+            <span><i class="fa-solid fa-angle-down fa-2x"></i></span>
+        </div>
+    </section>
+    <section class="partners">
+        <h2 class="subtitle">Partner</h2>
+        <hr class="subtitle__line">
+        <div class="partners__logo-container">
+            <img class="footer__logo mozilla" src="./img/mozilla.png" alt="Google logo">
+            <img class="footer__logo"  src="./img/airbnb.png" alt="Airbnb logo">
+            <img class="footer__logo"  src="./img/google-logo.svg" alt="Google logo">
+            <img class="footer__logo"  src="./img/microsoft-logo.svg" alt="Microsoft logo">
+            <img class="footer__logo"  src="./img/apple.png" alt="Apple logo">
+        </div>
+    </section>
+    <footer class="license">
+        <img class="license__logo" src="./img/cc-logo.svg" alt="creative commons logo">
+        <div>
+            <p class="license__text">2023 Creative Commons Mexico</p>
+            <p class="license__text">Some Rights Reserved</p>
+        </div>
     </footer>
+    <script src="./profileGenerator.js" type="module"></script>
+    <script src="./gridGenerator.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
 </body>
 </html>
