@@ -617,7 +617,7 @@ html {
     background-color: var(--dark-gray);
     color: #fff;
   }
-  
+
   .change-colors__logo {
     filter: invert(100%);
   }
