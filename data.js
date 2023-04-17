@@ -19,7 +19,7 @@ const data = [
     name: 'Lisa Kim',
     job: 'Full Stack Web Developer',
     education: "Bachelor's degree in Information Technology from Carnegie Mellon University",
-    skills: ['HTML', 'CSS', 'JavaScript', 'Ruby on Rails', 'PostgreSQL'],
+    skills: ['HTML', 'CSS', 'JS', 'Ruby on Rails', 'PostgreSQL'],
     experience: 'Has worked for a variety of startups and is now working as a freelancer, specializing in building custom web applications.',
     image: './img/profile3.jpg',
   },

@@ -1,17 +1,17 @@
 const blackAndWhiteAlternator = (size) => {
   const colors = ['black', 'white'];
-  const result = [];
+  const results = [];
   for (let i = 1; i <= size; i += 1) {
     if (i % 12 === 0) {
-      result.push(colors[0]);
+      results.push(colors[0]);
       colors.reverse();
     } else if (i % 2 === 0) {
-      result.push(colors[0]);
+      results.push(colors[0]);
     } else {
-      result.push(colors[1]);
+      results.push(colors[1]);
     }
   }
-  return result;
+  return results;
 };
 
 const gridGenerator = () => {

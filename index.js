@@ -12,8 +12,8 @@ button.addEventListener('click', (event) => {
 });
 
 for (let i = 0; i < body.children.length; i += 1) {
-  body.children[i].addEventListener('click', (event) => {
-    event.stopPropagation();
+  body.children[i].addEventListener('click', (ev) => {
+    ev.stopPropagation();
     mobileMenu.classList.add('display-none');
   });
 }
