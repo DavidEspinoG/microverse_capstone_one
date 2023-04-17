@@ -25,7 +25,7 @@
 
 # 📖 Portfolio <a id="about-project"></a>
 
-> Project created as part of my portfolio during the Microverse Program
+> Static landing page created using HTML, CSS and JavaScript. The pages shows information about a Web Development Conference. The page includes responsive design. 
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -59,15 +59,13 @@
 ### Key Features <a id="key-features"></a>
 
 - The content of "Main speakers section" is dinamically created using JS
-- Responsive web
+- Responsive-design, the web page looks great in different screen sizes. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a id="live-demo"></a>
-
-> Add a link to your deployed project.
 
 
 - [Live Demo Link](https://davidespinog.github.io/microverse_capstone_one/)
@@ -110,7 +108,7 @@ To run the project just open it in VS and run liveServer
 
 To run tests, run the following command:
 
-After running npm i command the command npm run test is available for testing
+After running npm i,  the script npm run test is available for testing lints,
 if you want some quick fix you can also run npm run fix
 ### Deployment
 
